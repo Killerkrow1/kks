@@ -1,5 +1,11 @@
 {
   "item.kks.dry_wall": "Dry Wall",
   "item.kks.candle_sword": "Candle Sword",
-  "itemgroup.shenanigans_tab": "Killer's Shenanigans"
+  "item.kks.greater_experience_bottle": "Greater Experience Bottle",
+  "item.kks.experience_lump": "Experience Lump",
+  "itemgroup.shenanigans_tab": "Killer's Shenanigans",
+  "tooltip.kks.drywall.tooltip": "Did you take this from a wall..?",
+  "tooltip.kks.candle_sword.tooltip": "A sword crafted from candles, maybe edible?",
+  "tooltip.kks.greater_experience.tooltip": "A catalyst hit this, it's much stronger than a normal bottle.",
+  "tooltip.kks.experience_lump.tooltip": "A shattered essence of an Experience Bottle."
 }

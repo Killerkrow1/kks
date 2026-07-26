@@ -1,3 +1,7 @@
-// 1.20.1	2026-07-25T23:26:17.6233565	Killer's Shenanigans/Recipes
+// 1.20.1	2026-07-26T00:23:37.9452636	Killer's Shenanigans/Recipes
 bfeb173d296bb41fb784b4c93ae6bc38c5bbbe7c data\kks\recipes\candle_sword.json
+f337faba52f980f7cd6450b1326ad6f874963749 data\kks\advancements\recipes\misc\experience_lump_from_blasting_experience_bottle.json
+ae37bf7d58099bbf7e041e52fa6018ad23343b7b data\kks\recipes\dry_wall.json
+bf12fb210e4d61ceab72edc90161c19ca8999fb7 data\kks\recipes\experience_lump_from_blasting_experience_bottle.json
 7c1e1557abffbb730031945289e4be60d8f18469 data\kks\advancements\recipes\misc\candle_sword.json
+9be6e21f63c9ad830759067f65d545379c025009 data\kks\advancements\recipes\combat\dry_wall.json

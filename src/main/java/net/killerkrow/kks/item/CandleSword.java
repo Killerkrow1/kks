@@ -1,12 +1,19 @@
 package net.killerkrow.kks.item;
 
 import net.killerkrow.kks.util.ModdedToolMaterials;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class CandleSword extends SwordItem {
     public CandleSword(ModdedToolMaterials toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
@@ -35,5 +42,16 @@ public class CandleSword extends SwordItem {
             stack.damage(50, player, (p) -> p.sendToolBreakStatus(user.getActiveHand()));
         }
         return stack;
+    }
+
+    // tooltip
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        if (Screen.hasShiftDown()) {
+            tooltip.add(Text.translatable("tooltip.kks.candle_sword.tooltip").formatted(Formatting.DARK_PURPLE));
+        } else {
+            tooltip.add(Text.literal("[SHIFT]").formatted(Formatting.DARK_GRAY));
+        }
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }

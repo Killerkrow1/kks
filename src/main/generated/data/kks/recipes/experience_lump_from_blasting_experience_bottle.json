@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 1200,
+  "experience": 10.0,
+  "group": "experience_lump",
+  "ingredient": {
+    "item": "minecraft:experience_bottle"
+  },
+  "result": "kks:experience_lump"
+}

@@ -17,6 +17,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.DRY_WALL);
                         entries.add(ModItems.CANDLE_SWORD);
+                        entries.add(ModItems.GREATER_EXPERIENCE_BOTTLE);
+                        entries.add(ModItems.EXPERIENCE_LUMP);
 
                     }).build());
 
