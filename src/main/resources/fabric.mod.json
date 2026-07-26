@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "kks",
+	"version": "${version}",
+	"name": "Killer's Shenanigans",
+	"description": "Simple mod adding in Shenanigans from Killerkrow",
+	"authors": [
+		"Killerkrow - Dev"
+	],
+	"contact": {
+		"homepage": "https://kkrow.carrd.co",
+		"sources": "https://github.com/killerkrow1/kks"
+	},
+	"license": "MIT",
+	"icon": "assets/kks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.killerkrow.kks.KillerSShenanigans"
+		],
+		"client": [
+			"net.killerkrow.kks.KillerSShenanigansClient"
+		],
+		"fabric-datagen": [
+			"net.killerkrow.kks.KillerSShenanigansDataGenerator"
+		]
+	},
+	"mixins": [
+		"kks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
