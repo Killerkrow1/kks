@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "kks:item/orange_candlesword_inventory"
+  }
+}

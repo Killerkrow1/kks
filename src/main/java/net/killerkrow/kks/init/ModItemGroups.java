@@ -16,9 +16,25 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.DRY_WALL)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.DRY_WALL);
-                        entries.add(ModItems.CANDLE_SWORD);
                         entries.add(ModItems.GREATER_EXPERIENCE_BOTTLE);
                         entries.add(ModItems.EXPERIENCE_LUMP);
+                        entries.add(ModItems.CANDLE_SWORD);
+                        entries.add(ModItems.BLACK_CANDLE_SWORD);
+                        entries.add(ModItems.BLUE_CANDLE_SWORD);
+                        entries.add(ModItems.BROWN_CANDLE_SWORD);
+                        entries.add(ModItems.CYAN_CANDLE_SWORD);
+                        entries.add(ModItems.GRAY_CANDLE_SWORD);
+                        entries.add(ModItems.GREEN_CANDLE_SWORD);
+                        entries.add(ModItems.LIGHT_BLUE_CANDLE_SWORD);
+                        entries.add(ModItems.LIGHT_GRAY_CANDLE_SWORD);
+                        entries.add(ModItems.LIME_CANDLE_SWORD);
+                        entries.add(ModItems.MAGENTA_CANDLE_SWORD);
+                        entries.add(ModItems.ORANGE_CANDLE_SWORD);
+                        entries.add(ModItems.PINK_CANDLE_SWORD);
+                        entries.add(ModItems.PURPLE_CANDLE_SWORD);
+                        entries.add(ModItems.RED_CANDLE_SWORD);
+                        entries.add(ModItems.WHITE_CANDLE_SWORD);
+                        entries.add(ModItems.YELLOW_CANDLE_SWORD);
 
                     }).build());
 

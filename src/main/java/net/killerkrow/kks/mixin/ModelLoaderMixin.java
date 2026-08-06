@@ -23,6 +23,22 @@ public abstract class ModelLoaderMixin {
 
     @Inject(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/model/ModelLoader;addModel(Lnet/minecraft/client/util/ModelIdentifier;)V", ordinal = 3, shift = At.Shift.AFTER))
     public void addItem(BlockColors blockColors, Profiler profiler, Map<Identifier, JsonUnbakedModel> jsonUnbakedModels, Map<Identifier, List<ModelLoader.SourceTrackedData>> blockStates, CallbackInfo ci) {
-        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "candle_sword_handheld", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "black_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "blue_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "brown_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "cyan_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "gray_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "green_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "light_blue_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "light_gray_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "lime_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "magenta_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "orange_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "pink_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "purple_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "red_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "white_candle_sword_held", "inventory"));
+        this.addModel(new ModelIdentifier(KillerSShenanigans.MOD_ID, "yellow_candle_sword_held", "inventory"));
     }
 }

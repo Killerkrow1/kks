@@ -29,7 +29,12 @@ public class ItemRenderMixin {
             BakedModel model,
             CallbackInfo ci
     ) {
-        if (stack.isOf(ModItems.CANDLE_SWORD)) {
+        if (stack.isOf(ModItems.CANDLE_SWORD) || stack.isOf(ModItems.BLACK_CANDLE_SWORD) || stack.isOf(ModItems.BLUE_CANDLE_SWORD) ||
+                stack.isOf(ModItems.BROWN_CANDLE_SWORD) || stack.isOf(ModItems.CYAN_CANDLE_SWORD) || stack.isOf(ModItems.GRAY_CANDLE_SWORD)
+                || stack.isOf(ModItems.GREEN_CANDLE_SWORD) || stack.isOf(ModItems.LIGHT_BLUE_CANDLE_SWORD) || stack.isOf(ModItems.LIGHT_GRAY_CANDLE_SWORD)
+                || stack.isOf(ModItems.LIME_CANDLE_SWORD) || stack.isOf(ModItems.MAGENTA_CANDLE_SWORD) || stack.isOf(ModItems.ORANGE_CANDLE_SWORD)
+                || stack.isOf(ModItems.PINK_CANDLE_SWORD) || stack.isOf(ModItems.PURPLE_CANDLE_SWORD) || stack.isOf(ModItems.RED_CANDLE_SWORD)
+                || stack.isOf(ModItems.WHITE_CANDLE_SWORD)|| stack.isOf(ModItems.YELLOW_CANDLE_SWORD)) {
 
             if (renderMode == ModelTransformationMode.FIRST_PERSON_RIGHT_HAND ||
                     renderMode == ModelTransformationMode.FIRST_PERSON_LEFT_HAND ||
